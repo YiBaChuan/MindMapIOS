@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4074B6141CB7E9D7000F50EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074B6131CB7E9D7000F50EF /* main.m */; };
+		4074B6171CB7E9D7000F50EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074B6161CB7E9D7000F50EF /* AppDelegate.m */; };
+		4074B61A1CB7E9D7000F50EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074B6191CB7E9D7000F50EF /* ViewController.m */; };
+		4074B61D1CB7E9D7000F50EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4074B61B1CB7E9D7000F50EF /* Main.storyboard */; };
+		4074B6201CB7E9D7000F50EF /* mindMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4074B61E1CB7E9D7000F50EF /* mindMap.xcdatamodeld */; };
+		4074B6221CB7E9D7000F50EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4074B6211CB7E9D7000F50EF /* Assets.xcassets */; };
+		4074B6251CB7E9D7000F50EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4074B6231CB7E9D7000F50EF /* LaunchScreen.storyboard */; };
+		4074B6301CB7E9D7000F50EF /* mindMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074B62F1CB7E9D7000F50EF /* mindMapTests.m */; };
+		4074B63B1CB7E9D7000F50EF /* mindMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074B63A1CB7E9D7000F50EF /* mindMapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4074B62C1CB7E9D7000F50EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4074B6071CB7E9D6000F50EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4074B60E1CB7E9D7000F50EF;
+			remoteInfo = mindMap;
+		};
+		4074B6371CB7E9D7000F50EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4074B6071CB7E9D6000F50EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4074B60E1CB7E9D7000F50EF;
+			remoteInfo = mindMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4074B60F1CB7E9D7000F50EF /* mindMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4074B6131CB7E9D7000F50EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4074B6151CB7E9D7000F50EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4074B6161CB7E9D7000F50EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4074B6181CB7E9D7000F50EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4074B6191CB7E9D7000F50EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4074B61C1CB7E9D7000F50EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4074B61F1CB7E9D7000F50EF /* mindMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mindMap.xcdatamodel; sourceTree = "<group>"; };
+		4074B6211CB7E9D7000F50EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4074B6241CB7E9D7000F50EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4074B6261CB7E9D7000F50EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4074B62B1CB7E9D7000F50EF /* mindMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mindMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4074B62F1CB7E9D7000F50EF /* mindMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mindMapTests.m; sourceTree = "<group>"; };
+		4074B6311CB7E9D7000F50EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4074B6361CB7E9D7000F50EF /* mindMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mindMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4074B63A1CB7E9D7000F50EF /* mindMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mindMapUITests.m; sourceTree = "<group>"; };
+		4074B63C1CB7E9D7000F50EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4074B60C1CB7E9D7000F50EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4074B6281CB7E9D7000F50EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4074B6331CB7E9D7000F50EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4074B6061CB7E9D6000F50EF = {
+			isa = PBXGroup;
+			children = (
+				4074B6111CB7E9D7000F50EF /* mindMap */,
+				4074B62E1CB7E9D7000F50EF /* mindMapTests */,
+				4074B6391CB7E9D7000F50EF /* mindMapUITests */,
+				4074B6101CB7E9D7000F50EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4074B6101CB7E9D7000F50EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4074B60F1CB7E9D7000F50EF /* mindMap.app */,
+				4074B62B1CB7E9D7000F50EF /* mindMapTests.xctest */,
+				4074B6361CB7E9D7000F50EF /* mindMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4074B6111CB7E9D7000F50EF /* mindMap */ = {
+			isa = PBXGroup;
+			children = (
+				4074B6151CB7E9D7000F50EF /* AppDelegate.h */,
+				4074B6161CB7E9D7000F50EF /* AppDelegate.m */,
+				4074B6181CB7E9D7000F50EF /* ViewController.h */,
+				4074B6191CB7E9D7000F50EF /* ViewController.m */,
+				4074B61B1CB7E9D7000F50EF /* Main.storyboard */,
+				4074B6211CB7E9D7000F50EF /* Assets.xcassets */,
+				4074B6231CB7E9D7000F50EF /* LaunchScreen.storyboard */,
+				4074B6261CB7E9D7000F50EF /* Info.plist */,
+				4074B61E1CB7E9D7000F50EF /* mindMap.xcdatamodeld */,
+				4074B6121CB7E9D7000F50EF /* Supporting Files */,
+			);
+			path = mindMap;
+			sourceTree = "<group>";
+		};
+		4074B6121CB7E9D7000F50EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4074B6131CB7E9D7000F50EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4074B62E1CB7E9D7000F50EF /* mindMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				4074B62F1CB7E9D7000F50EF /* mindMapTests.m */,
+				4074B6311CB7E9D7000F50EF /* Info.plist */,
+			);
+			path = mindMapTests;
+			sourceTree = "<group>";
+		};
+		4074B6391CB7E9D7000F50EF /* mindMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4074B63A1CB7E9D7000F50EF /* mindMapUITests.m */,
+				4074B63C1CB7E9D7000F50EF /* Info.plist */,
+			);
+			path = mindMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4074B60E1CB7E9D7000F50EF /* mindMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4074B63F1CB7E9D7000F50EF /* Build configuration list for PBXNativeTarget "mindMap" */;
+			buildPhases = (
+				4074B60B1CB7E9D7000F50EF /* Sources */,
+				4074B60C1CB7E9D7000F50EF /* Frameworks */,
+				4074B60D1CB7E9D7000F50EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mindMap;
+			productName = mindMap;
+			productReference = 4074B60F1CB7E9D7000F50EF /* mindMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4074B62A1CB7E9D7000F50EF /* mindMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4074B6421CB7E9D7000F50EF /* Build configuration list for PBXNativeTarget "mindMapTests" */;
+			buildPhases = (
+				4074B6271CB7E9D7000F50EF /* Sources */,
+				4074B6281CB7E9D7000F50EF /* Frameworks */,
+				4074B6291CB7E9D7000F50EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4074B62D1CB7E9D7000F50EF /* PBXTargetDependency */,
+			);
+			name = mindMapTests;
+			productName = mindMapTests;
+			productReference = 4074B62B1CB7E9D7000F50EF /* mindMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4074B6351CB7E9D7000F50EF /* mindMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4074B6451CB7E9D7000F50EF /* Build configuration list for PBXNativeTarget "mindMapUITests" */;
+			buildPhases = (
+				4074B6321CB7E9D7000F50EF /* Sources */,
+				4074B6331CB7E9D7000F50EF /* Frameworks */,
+				4074B6341CB7E9D7000F50EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4074B6381CB7E9D7000F50EF /* PBXTargetDependency */,
+			);
+			name = mindMapUITests;
+			productName = mindMapUITests;
+			productReference = 4074B6361CB7E9D7000F50EF /* mindMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4074B6071CB7E9D6000F50EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Леха";
+				TargetAttributes = {
+					4074B60E1CB7E9D7000F50EF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4074B62A1CB7E9D7000F50EF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4074B60E1CB7E9D7000F50EF;
+					};
+					4074B6351CB7E9D7000F50EF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4074B60E1CB7E9D7000F50EF;
+					};
+				};
+			};
+			buildConfigurationList = 4074B60A1CB7E9D6000F50EF /* Build configuration list for PBXProject "mindMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4074B6061CB7E9D6000F50EF;
+			productRefGroup = 4074B6101CB7E9D7000F50EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4074B60E1CB7E9D7000F50EF /* mindMap */,
+				4074B62A1CB7E9D7000F50EF /* mindMapTests */,
+				4074B6351CB7E9D7000F50EF /* mindMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4074B60D1CB7E9D7000F50EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4074B6251CB7E9D7000F50EF /* LaunchScreen.storyboard in Resources */,
+				4074B6221CB7E9D7000F50EF /* Assets.xcassets in Resources */,
+				4074B61D1CB7E9D7000F50EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4074B6291CB7E9D7000F50EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4074B6341CB7E9D7000F50EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4074B60B1CB7E9D7000F50EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4074B61A1CB7E9D7000F50EF /* ViewController.m in Sources */,
+				4074B6171CB7E9D7000F50EF /* AppDelegate.m in Sources */,
+				4074B6201CB7E9D7000F50EF /* mindMap.xcdatamodeld in Sources */,
+				4074B6141CB7E9D7000F50EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4074B6271CB7E9D7000F50EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4074B6301CB7E9D7000F50EF /* mindMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4074B6321CB7E9D7000F50EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4074B63B1CB7E9D7000F50EF /* mindMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4074B62D1CB7E9D7000F50EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4074B60E1CB7E9D7000F50EF /* mindMap */;
+			targetProxy = 4074B62C1CB7E9D7000F50EF /* PBXContainerItemProxy */;
+		};
+		4074B6381CB7E9D7000F50EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4074B60E1CB7E9D7000F50EF /* mindMap */;
+			targetProxy = 4074B6371CB7E9D7000F50EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4074B61B1CB7E9D7000F50EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4074B61C1CB7E9D7000F50EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4074B6231CB7E9D7000F50EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4074B6241CB7E9D7000F50EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4074B63D1CB7E9D7000F50EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4074B63E1CB7E9D7000F50EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4074B6401CB7E9D7000F50EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mindMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lexa.mindMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4074B6411CB7E9D7000F50EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mindMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lexa.mindMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4074B6431CB7E9D7000F50EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mindMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lexa.mindMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mindMap.app/mindMap";
+			};
+			name = Debug;
+		};
+		4074B6441CB7E9D7000F50EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mindMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lexa.mindMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mindMap.app/mindMap";
+			};
+			name = Release;
+		};
+		4074B6461CB7E9D7000F50EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mindMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lexa.mindMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mindMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4074B6471CB7E9D7000F50EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mindMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lexa.mindMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mindMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4074B60A1CB7E9D6000F50EF /* Build configuration list for PBXProject "mindMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4074B63D1CB7E9D7000F50EF /* Debug */,
+				4074B63E1CB7E9D7000F50EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4074B63F1CB7E9D7000F50EF /* Build configuration list for PBXNativeTarget "mindMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4074B6401CB7E9D7000F50EF /* Debug */,
+				4074B6411CB7E9D7000F50EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4074B6421CB7E9D7000F50EF /* Build configuration list for PBXNativeTarget "mindMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4074B6431CB7E9D7000F50EF /* Debug */,
+				4074B6441CB7E9D7000F50EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4074B6451CB7E9D7000F50EF /* Build configuration list for PBXNativeTarget "mindMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4074B6461CB7E9D7000F50EF /* Debug */,
+				4074B6471CB7E9D7000F50EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4074B61E1CB7E9D7000F50EF /* mindMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4074B61F1CB7E9D7000F50EF /* mindMap.xcdatamodel */,
+			);
+			currentVersion = 4074B61F1CB7E9D7000F50EF /* mindMap.xcdatamodel */;
+			path = mindMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4074B6071CB7E9D6000F50EF /* Project object */;
+}
