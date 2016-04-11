@@ -16,6 +16,9 @@
 		4074B6251CB7E9D7000F50EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4074B6231CB7E9D7000F50EF /* LaunchScreen.storyboard */; };
 		4074B6301CB7E9D7000F50EF /* mindMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074B62F1CB7E9D7000F50EF /* mindMapTests.m */; };
 		4074B63B1CB7E9D7000F50EF /* mindMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074B63A1CB7E9D7000F50EF /* mindMapUITests.m */; };
+		4074B6511CB7F30F000F50EF /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074B6501CB7F30F000F50EF /* Item.m */; };
+		4074B6561CB7F377000F50EF /* MindMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074B6551CB7F377000F50EF /* MindMap.m */; };
+		40A305461CB8596D0070CCCA /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A305451CB8596D0070CCCA /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		4074B6361CB7E9D7000F50EF /* mindMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mindMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4074B63A1CB7E9D7000F50EF /* mindMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mindMapUITests.m; sourceTree = "<group>"; };
 		4074B63C1CB7E9D7000F50EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4074B6501CB7F30F000F50EF /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		4074B6521CB7F32C000F50EF /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		4074B6541CB7F353000F50EF /* MindMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MindMap.h; sourceTree = "<group>"; };
+		4074B6551CB7F377000F50EF /* MindMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MindMap.m; sourceTree = "<group>"; };
+		40A305441CB858DC0070CCCA /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		40A305451CB8596D0070CCCA /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		404F69F61CB8223400056DD2 /* MindMap */ = {
+			isa = PBXGroup;
+			children = (
+				4074B6541CB7F353000F50EF /* MindMap.h */,
+				4074B6551CB7F377000F50EF /* MindMap.m */,
+			);
+			name = MindMap;
+			sourceTree = "<group>";
+		};
 		4074B6061CB7E9D6000F50EF = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +121,8 @@
 		4074B6111CB7E9D7000F50EF /* mindMap */ = {
 			isa = PBXGroup;
 			children = (
+				40A305431CB858B60070CCCA /* Data */,
+				4074B64F1CB7F2DA000F50EF /* Model */,
 				4074B6151CB7E9D7000F50EF /* AppDelegate.h */,
 				4074B6161CB7E9D7000F50EF /* AppDelegate.m */,
 				4074B6181CB7E9D7000F50EF /* ViewController.h */,
@@ -141,6 +161,41 @@
 				4074B63C1CB7E9D7000F50EF /* Info.plist */,
 			);
 			path = mindMapUITests;
+			sourceTree = "<group>";
+		};
+		4074B64F1CB7F2DA000F50EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40A305421CB858A30070CCCA /* User */,
+				404F69F61CB8223400056DD2 /* MindMap */,
+				4074B6531CB7F33A000F50EF /* Item */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4074B6531CB7F33A000F50EF /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				4074B6501CB7F30F000F50EF /* Item.m */,
+				4074B6521CB7F32C000F50EF /* Item.h */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		40A305421CB858A30070CCCA /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		40A305431CB858B60070CCCA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				40A305441CB858DC0070CCCA /* DataManager.h */,
+				40A305451CB8596D0070CCCA /* DataManager.m */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4074B6561CB7F377000F50EF /* MindMap.m in Sources */,
+				4074B6511CB7F30F000F50EF /* Item.m in Sources */,
+				40A305461CB8596D0070CCCA /* DataManager.m in Sources */,
 				4074B61A1CB7E9D7000F50EF /* ViewController.m in Sources */,
 				4074B6171CB7E9D7000F50EF /* AppDelegate.m in Sources */,
 				4074B6201CB7E9D7000F50EF /* mindMap.xcdatamodeld in Sources */,
@@ -417,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = mindMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.lexa.mindMap;
@@ -428,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = mindMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.lexa.mindMap;
@@ -502,6 +562,7 @@
 				4074B6411CB7E9D7000F50EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4074B6421CB7E9D7000F50EF /* Build configuration list for PBXNativeTarget "mindMapTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +571,7 @@
 				4074B6441CB7E9D7000F50EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4074B6451CB7E9D7000F50EF /* Build configuration list for PBXNativeTarget "mindMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +580,7 @@
 				4074B6471CB7E9D7000F50EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
